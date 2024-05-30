@@ -1,0 +1,199 @@
+CRITICAL - 2024-03-19 02:25:27 --> Error: Class "App\Controllers\PageNotFoundException" not found
+in APPPATH\Controllers\Artikel.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Artikel->view('style.css')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-19 02:28:21 --> Error: Class "App\Controllers\PageNotFoundException" not found
+in APPPATH\Controllers\Artikel.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Artikel->view('style.css')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-19 02:32:59 --> Error: Class "App\Controllers\PageNotFoundException" not found
+in APPPATH\Controllers\Artikel.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Artikel->view('style.css')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-19 02:33:44 --> Error: Class "App\Controllers\PageNotFoundException" not found
+in APPPATH\Controllers\Artikel.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Artikel->view('style.css')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-19 02:49:26 --> Error: Class "App\Controllers\PageNotFoundException" not found
+in APPPATH\Controllers\Artikel.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Artikel->view('style.css')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\lab11_ci\\ci4\\public\\index.php')
+CRITICAL - 2024-03-19 02:49:30 --> Error: Class "App\Controllers\PageNotFoundException" not found
+in APPPATH\Controllers\Artikel.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Artikel->view('style.css')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\lab11_ci\\ci4\\public\\index.php')
+CRITICAL - 2024-03-19 03:06:55 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "template/admin_header.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template/admin_header.php')
+ 2 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('template/admin_header', null, true)
+ 3 APPPATH\Views\Artikel\admin_index.php(1): CodeIgniter\View\View->include('template/admin_header')
+ 4 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\lab11_ci\\ci4\\app\\Views\\Artikel\\admin_index.php')
+ 5 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('artikel/admin_index', [], true)
+ 7 APPPATH\Controllers\Artikel.php(35): view('artikel/admin_index', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Artikel->admin_index()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\lab11_ci\\ci4\\public\\index.php')
+CRITICAL - 2024-03-19 03:08:29 --> Error: Class "App\Controllers\PageNotFoundException" not found
+in APPPATH\Controllers\Artikel.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Artikel->view('admin')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\lab11_ci\\ci4\\public\\index.php')
+CRITICAL - 2024-03-19 03:13:13 --> Error: Class "App\Controllers\PageNotFoundException" not found
+in APPPATH\Controllers\Artikel.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Artikel->view('admin')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\lab11_ci\\ci4\\public\\index.php')
+INFO - 2024-03-19 03:48:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-19 03:50:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-19 03:56:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-19 04:05:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-19 04:05:18 --> Error: Class "Config\App\Filters\Auth" not found
+in SYSTEMPATH\Filters\Filters.php on line 175.
+ 1 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('admin/artikel', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\lab11_ci\\ci4\\public\\index.php')
+INFO - 2024-03-19 04:05:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-19 04:05:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-19 04:05:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-19 04:05:53 --> Error: Class "Config\App\Filters\Auth" not found
+in SYSTEMPATH\Filters\Filters.php on line 175.
+ 1 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('admin/artikel', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\lab11_ci\\ci4\\public\\index.php')
+INFO - 2024-03-19 04:06:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-19 04:06:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-19 04:06:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-19 04:06:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-19 04:07:01 --> Error: Class "Config\App\Filters\Auth" not found
+in SYSTEMPATH\Filters\Filters.php on line 175.
+ 1 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('admin/artikel', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\lab11_ci\\ci4\\public\\index.php')
+INFO - 2024-03-19 04:12:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-19 04:13:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-19 04:13:07 --> Error: Class "Config\App\Filters\Auth" not found
+in SYSTEMPATH\Filters\Filters.php on line 175.
+ 1 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('admin/artikel', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\lab11_ci\\ci4\\public\\index.php')
+INFO - 2024-03-19 04:15:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-19 04:19:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-19 04:19:44 --> Error: Class "Config\App\Filters\Auth" not found
+in SYSTEMPATH\Filters\Filters.php on line 175.
+ 1 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('admin/artikel', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\lab11_ci\\ci4\\public\\index.php')
+INFO - 2024-03-19 04:40:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-19 04:41:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-19 04:41:34 --> Error: Class "Config\App\Filters\Auth" not found
+in SYSTEMPATH\Filters\Filters.php on line 175.
+ 1 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('admin/artikel', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\lab11_ci\\ci4\\public\\index.php')
+CRITICAL - 2024-03-19 04:44:58 --> CodeIgniter\Filters\Exceptions\FilterException: "auth" filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 352.
+ 1 SYSTEMPATH\Filters\Filters.php(352): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('auth')
+ 2 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\Filters\Filters->enableFilter('auth', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\lab11_ci\\ci4\\public\\index.php')
+INFO - 2024-03-19 04:45:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-19 04:45:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-19 04:45:34 --> CodeIgniter\Filters\Exceptions\FilterException: "auth" filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 352.
+ 1 SYSTEMPATH\Filters\Filters.php(352): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('auth')
+ 2 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\Filters\Filters->enableFilter('auth', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\lab11_ci\\ci4\\public\\index.php')
+INFO - 2024-03-19 04:48:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-19 04:48:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-19 04:48:14 --> Error: Class "Config\App\Filters\Auth" not found
+in SYSTEMPATH\Filters\Filters.php on line 175.
+ 1 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('admin/artikel', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\lab11_ci\\ci4\\public\\index.php')
+INFO - 2024-03-19 04:50:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-19 04:50:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-19 04:50:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-19 04:50:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-19 04:50:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-19 04:50:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-19 04:59:23 --> CodeIgniter\Filters\Exceptions\FilterException: "auth" filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 352.
+ 1 SYSTEMPATH\Filters\Filters.php(352): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('auth')
+ 2 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\Filters\Filters->enableFilter('auth', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\lab11_ci\\ci4\\public\\index.php')
+CRITICAL - 2024-03-19 05:01:19 --> Error: Undefined constant "Config\App"
+in SYSTEMPATH\Config\Factories.php on line 218.
+ 1 SYSTEMPATH\Config\Factories.php(168): CodeIgniter\Config\Factories::createInstance('config', 'Config\\Filters', [])
+ 2 SYSTEMPATH\Common.php(215): CodeIgniter\Config\Factories::__callStatic('config', [])
+ 3 SYSTEMPATH\Config\Services.php(291): config('Config\\Filters')
+ 4 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::filters(null, false)
+ 5 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('filters', [...])
+ 6 SYSTEMPATH\Config\Services.php(288): CodeIgniter\Config\BaseService::getSharedInstance('filters', null)
+ 7 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::filters()
+ 8 SYSTEMPATH\CodeIgniter.php(456): CodeIgniter\Config\BaseService::__callStatic('filters', [])
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\lab11_ci\\ci4\\public\\index.php')
+CRITICAL - 2024-03-19 05:01:21 --> Error: Undefined constant "Config\App"
+in SYSTEMPATH\Config\Factories.php on line 218.
+ 1 SYSTEMPATH\Config\Factories.php(168): CodeIgniter\Config\Factories::createInstance('config', 'Config\\Filters', [])
+ 2 SYSTEMPATH\Common.php(215): CodeIgniter\Config\Factories::__callStatic('config', [])
+ 3 SYSTEMPATH\Config\Services.php(291): config('Config\\Filters')
+ 4 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::filters(null, false)
+ 5 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('filters', [...])
+ 6 SYSTEMPATH\Config\Services.php(288): CodeIgniter\Config\BaseService::getSharedInstance('filters', null)
+ 7 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::filters()
+ 8 SYSTEMPATH\CodeIgniter.php(456): CodeIgniter\Config\BaseService::__callStatic('filters', [])
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\lab11_ci\\ci4\\public\\index.php')
+INFO - 2024-03-19 05:01:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-19 05:02:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-19 05:02:07 --> CodeIgniter\Filters\Exceptions\FilterException: "Auth" filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 352.
+ 1 SYSTEMPATH\Filters\Filters.php(352): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('Auth')
+ 2 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\Filters\Filters->enableFilter('Auth', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\lab11_ci\\ci4\\public\\index.php')
+INFO - 2024-03-19 05:03:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-19 05:03:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-19 05:03:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-19 05:07:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-19 05:07:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-19 05:07:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-19 05:07:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-19 05:07:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
